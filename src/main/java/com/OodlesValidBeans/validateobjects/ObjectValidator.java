@@ -27,9 +27,6 @@ public class ObjectValidator {
                   .collect(Collectors.toSet());
       }
       return Collections.emptySet();
-  }
-
-
-
+    }
 
 }
