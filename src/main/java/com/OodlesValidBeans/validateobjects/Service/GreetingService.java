@@ -2,13 +2,9 @@ package com.OodlesValidBeans.validateobjects.Service;
 
 import com.OodlesValidBeans.validateobjects.Domains.Greeting;
 
-import com.OodlesValidBeans.validateobjects.ObjectValidator;
-import jakarta.validation.Validator;
+import com.OodlesValidBeans.validateobjects.Validators.ObjectValidator;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor

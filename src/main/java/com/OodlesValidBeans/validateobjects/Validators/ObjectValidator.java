@@ -1,4 +1,4 @@
-package com.OodlesValidBeans.validateobjects;
+package com.OodlesValidBeans.validateobjects.Validators;
 
 
 import com.OodlesValidBeans.validateobjects.Domains.Greeting;
