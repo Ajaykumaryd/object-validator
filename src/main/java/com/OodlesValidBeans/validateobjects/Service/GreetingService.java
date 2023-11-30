@@ -13,13 +13,13 @@ public class GreetingService {
     private final ObjectValidator validator;
     public String save(Greeting greeting){
             var violations = validator.validate(greeting);
+            //binding replaced
             if(!violations.isEmpty()){
                   return String.join("|",violations);
             }
-        return "Greeting Message is "+greeting.getMessage()
+            return "Greeting Message is "+greeting.getMessage()
                 +"from "+greeting.getFrom()
                 +"to "+greeting.getTo();
-//                +"check if supported"+greeting.isUnsupported();
-    }
+     }
 
 }

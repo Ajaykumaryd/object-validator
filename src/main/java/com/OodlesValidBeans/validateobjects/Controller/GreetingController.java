@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/greetings")
-@RequiredArgsConstructor
+@RequiredArgsConstructor //for final keyword
 public class GreetingController {
 
 
